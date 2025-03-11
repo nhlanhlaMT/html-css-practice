@@ -1,0 +1,16 @@
+div {
+    border: solid 2px;
+    height: 75px;
+    overflow: scroll;
+}
+
+/* 
+overflow: visible = default
+overflow: hidden =  any content that flows outside of our box will be hidden, but can still interact with input
+overflow: clip = similar to hidden
+overflow: clip-margin = set how far this content displays or overflows outside of the box
+overflow: scroll = our box contains a scrollbar (horizontal/vertifal)
+overflow: auto = if you don't need a scrollbar, it won't be displayed until you do need it 
+*/
+
+

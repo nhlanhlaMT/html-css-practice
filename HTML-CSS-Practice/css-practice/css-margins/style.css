@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+.box {
+    font-size: 5em;
+    height: 200px;
+    width: 200px;
+    border: 5px solid;
+    /* margin: auto = CENTERS YOUR ELEMENT */
+}
+
+#box1 {
+    background-color: blue;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+
+#box2 {
+    background-color: red;
+    margin-top: 40px;
+    margin-left: 180px;
+}
