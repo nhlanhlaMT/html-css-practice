@@ -1,0 +1,46 @@
+.btn {
+    margin: 10px 20px;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #000;
+    scale: 1.5;
+    transition: 0.5s ease;
+}
+
+.btn:active {
+    color: lightcoral;
+    background-color: aqua;
+}
+
+/*   lists */
+
+li:hover {
+    background-color: red;
+}
+
+
+li:not(:hover) {
+    background-color: grey;
+}
+
+li:nth-child(3n+2) {
+    background-color: yellow;
+}
+
+/* div */
+
+#greeting {
+    cursor: pointer;
+}
+
+#greeting p {
+    background-color: blueviolet;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p {
+    display: block;
+}
