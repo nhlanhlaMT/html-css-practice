@@ -1,0 +1,20 @@
+.pagination {
+    text-align: center;
+}
+
+.pagination a{
+    text-decoration: none;
+    color: #000;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active {
+    background-color: hsl(120, 100%, 70%);
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: grey;
+    border-radius: 5px;
+}
